@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body .main1 {
+  background-image: url(./fon\ 1.png);
+  height: 100vh;
+  color: white;
+  padding-left: 200px;
+  margin-top: -20px;
+}
+body .main1 .h1 {
+  font-size: 25px;
+  padding: 30px;
+  margin-left: -200px;
+}
+body .main1 .h2 {
+  font-size: 45px;
+}
+body .main1 .p1 {
+  font-weight: 300;
+}
+body .main1 .b1 {
+  border: none;
+  padding: 18px 60px;
+  color: wheat;
+  background-color: #E2521D;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 40px;
+  box-shadow: 1px 1px 20px red;
+}
+body .main2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 100px;
+  background-color: rgb(31, 31, 46);
+}
+body .main2 .p2 {
+  color: red;
+  font-size: 20px;
+  margin-top: 100px;
+}
+body .main2 .p1 {
+  font-size: 15px;
+  margin-top: 80px;
+  color: gray;
+}
+body .main2 .h2 {
+  color: white;
+}
+body .h3 {
+  text-align: center;
+  font-size: 35px;
+  padding: 20px;
+  color: white;
+}
+body .main3 {
+  background-color: rgb(31, 31, 46);
+  margin-top: -23px;
+  padding: 30px 0px;
+}
+body .main3 .div2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 100px;
+  color: white;
+  font-size: 15px;
+}
+body .main4 {
+  background-color: rgb(31, 31, 46);
+  margin-top: -23px;
+  padding: 0px 200px;
+}
+body .div4 {
+  padding: 20px 100px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  margin: 20px 0px;
+  background-color: #E2521D;
+}
+body .p5 {
+  color: white;
+  padding: 20px 100px;
+}
+body .div5 {
+  padding: 20px 100px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  margin: 20px 0px;
+  background-color: #0E1B28;
+}
+body .div6 {
+  padding: 20px 100px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  margin: 20px 0px;
+  background-color: #0E1B28;
+  margin-bottom: 100px;
+}
+body .main5 {
+  background-color: rgb(31, 31, 46);
+  margin-top: -23px;
+  background-image: url(./fon\ 2.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  padding: 200px 100px 0px 700px;
+}
+body .main5 p {
+  color: red;
+  font-size: 25px;
+  font-weight: 50;
+  text-align: start;
+}
+body .main5 .p6 {
+  color: white;
+  font-size: 18px;
+  color: gray;
+  margin-top: 50px;
+}
+body .main6 {
+  background-color: rgb(31, 31, 46);
+  margin-top: -24px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 200px;
+  color: white;
+  flex-wrap: wrap;
+  align-content: space-around;
+  height: 500px;
+}
+body .main6 .p7 {
+  font-size: 15px;
+  color: gray;
+}
+body .h3 {
+  background-color: rgb(31, 31, 46);
+  margin-top: -23px;
+}
+body .main7 {
+  background-color: rgb(31, 31, 46);
+  margin-top: -23px;
+  padding: 100px 200px;
+}
+body .main7 .div6 {
+  background-color: #E2521D;
+  text-align: center;
+  display: block;
+  padding: 60px;
+  height: 100px;
+}
+body .main7 .div7 {
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  border-bottom: 1px solid gray;
+  margin-top: -100px;
+  padding-bottom: 50px;
+}
+body .main7 h3 {
+  color: white;
+  text-align: center;
+}
+body .main7 p {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+}
+body .main7 input {
+  border: 1px solid rgb(170, 66, 66);
+  background-color: #0E1B28;
+  padding: 15px 50px;
+  border-radius: 5px;
+  display: block;
+  margin-left: 320px;
+}
+body .main7 button {
+  border: none;
+  background-color: #E2521D;
+  padding: 15px 74px;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  display: block;
+  margin: 20px;
+  margin-left: 320px;
+}
+body .main7 .in1 {
+  display: inline;
+}
+body .main7 label {
+  color: wheat;
+  font-size: 14px;
+}
+body .main7 .div10 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  margin-bottom: -30px;
+  text-align: start;
+}
+body .main7 .div10 p {
+  text-align: start;
+  font-size: 15px;
+  color: gray;
+}
+body .main7 .div10 img {
+  margin-left: 10px;
+}/*# sourceMappingURL=style.css.map */

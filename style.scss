@@ -1,0 +1,219 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    .main1{
+        background-image: url(./fon\ 1.png);
+        height: 100vh;
+        color: white;
+        padding-left: 200px;
+        margin-top: -20px;
+        .h1{
+            font-size: 25px;
+            padding: 30px;
+            margin-left: -200px;
+        }
+        .h2{
+            font-size: 45px;
+        }
+        .p1{
+            font-weight: 300;
+        }
+        .b1{
+            border: none;
+            padding: 18px 60px;
+            color: wheat;
+            background-color: #E2521D;
+            font-size: 18px;
+            border-radius: 10px;
+            margin-top: 40px;
+            box-shadow: 1px 1px 20px red;
+        }
+    }
+    .main2{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 50px 100px;
+        background-color: rgb(31, 31, 46);
+        .p2{
+            color: red;
+            font-size: 20px;
+            margin-top: 100px;
+        }
+        .p1{
+            font-size: 15px;
+            margin-top: 80px;
+            color: gray;
+        }
+        .h2{
+            color: white;
+        }
+    }
+    $text-align: center;
+    $color: white;
+    $padding: 20px;
+    $font-size: 35px;
+    $lowsiaze: 15px;
+    $background: rgb(31, 31, 46);
+    .h3{
+        text-align: $text-align;
+        font-size: $font-size;
+        padding: $padding;
+        color: $color;
+    }
+    .main3{
+        background-color: rgb(31, 31, 46);
+        margin-top: -23px;
+        padding: 30px 0px;
+        .div2{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 20px 100px;
+            color: $color;
+            font-size: $lowsiaze;
+        }
+    }
+    .main4{
+        background-color: rgb(31, 31, 46);
+        margin-top: -23px;
+        padding: 0px 200px;
+    }
+    @mixin divred {
+        padding: 20px 100px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 40px;
+        margin: 20px 0px
+    }
+    .div4{
+        @include divred;
+        background-color: #E2521D;
+    }
+    .p5{
+        color: $color;
+        padding: 20px 100px;
+    }
+    .div5{
+        @include divred;
+        background-color: #0E1B28;
+    }
+    .div6{
+        @include divred;
+        background-color: #0E1B28;
+        margin-bottom: 100px;
+    }
+    .main5{
+        background-color: rgb(31, 31, 46);
+        margin-top: -23px;
+        background-image: url(./fon\ 2.png);
+        height: 100vh;
+        background-repeat: no-repeat;
+        padding: 200px 100px 0px 700px;
+        p{
+            color: red;
+            font-size: 25px;
+            font-weight: 50;
+            text-align: start;
+        }
+        .p6{
+            color: white;
+            font-size: 18px;
+            color: gray;
+            margin-top: 50px;
+        }
+    }
+    .main6{
+        background-color: $background;
+        margin-top: -24px;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px 200px;
+        color: $color;
+        flex-wrap: wrap;
+        align-content: space-around;
+        height: 500px;
+        .p7{
+            font-size: 15px;
+            color: gray;
+        }
+    }
+    .h3{
+        background-color: $background;
+        margin-top: -23px;
+    }
+    .main7{
+        background-color: $background;
+        margin-top: -23px;
+        padding: 100px 200px;
+        .div6{
+            background-color: #E2521D;
+            text-align: center;
+            display: block;
+            padding: 60px;
+            height: 100px;
+        }
+        .div7{
+            display: flex;
+            color: $color;
+            justify-content: space-evenly;
+            border-bottom: 1px solid gray;
+            margin-top: -100px;
+            padding-bottom: 50px;
+        }
+        h3{
+            color: $color;
+            text-align: $text-align;
+        }
+        p{
+            color: $color;
+            text-align: $text-align;
+            margin-top: 10px;
+            font-size: $lowsiaze;
+        }
+        input{
+            border: 1px solid rgb(170, 66, 66);
+            background-color: #0E1B28;
+            padding: 15px 50px;
+            border-radius: 5px;
+            display: block;
+            margin-left: 320px;
+            
+        }
+        button{
+            border: none;
+            background-color: #E2521D;
+            padding: 15px 74px;
+            color: $color;
+            font-size: 16px;
+            border-radius: 5px;
+            display: block;
+            margin: 20px;
+            margin-left: 320px;
+        }
+        .in1{
+            display: inline;
+        }
+        label{
+            color: wheat;
+            font-size: 14px;
+        }
+       .div10{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 70px;
+        margin-bottom: -30px;
+        text-align: start;
+        p{
+            text-align: start;
+            font-size: $lowsiaze;
+            color: gray;
+        }
+        img{
+            margin-left: 10px;
+        }
+       }
+    }
+}
